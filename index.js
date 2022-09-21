@@ -79,8 +79,6 @@ function next() {
 
 }
 
-<<<<<<< HEAD
-=======
 function engineer() {
     inquirer.prompt([
         {
@@ -156,6 +154,5 @@ function generateHTML() {
 
     
 }
->>>>>>> afc9739e5cf619aa3f529a214d9f53f9efc8daf9
 
 init()
