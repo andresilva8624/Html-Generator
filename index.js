@@ -22,7 +22,7 @@ function init() {
         },
         {
             type: "input",
-            message: "Please enter office number",
+            message: "Please enter the office number",
             name: "office",
         },
     ])
