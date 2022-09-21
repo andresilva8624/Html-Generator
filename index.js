@@ -43,9 +43,9 @@ function next() {
         {
 
             type: "list",
-            message: "What would like to do next?",
+            message: "What would you like to do next?",
             name: "next",
-            choices: ['Add an intern', 'Add an engineer', 'Finish building the Team']
+            choices: ['Add an engineer', 'Add an intern', 'Finish building the Team']
 
         },
 
@@ -55,10 +55,12 @@ function next() {
 
 
 
+
         }
         )
 
 
 }
+
 
 init()
