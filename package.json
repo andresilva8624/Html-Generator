@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/andresilva8624/Html-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "nodemon": "^2.0.20"
   }
 }
