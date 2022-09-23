@@ -2,6 +2,8 @@
 //THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
 
 const inquirer = require("inquirer");
+// const generateHTML = require('./utils/generateHTML')
+const fs = require('fs')
 
 function init() {
     inquirer.prompt([
@@ -30,13 +32,11 @@ function init() {
             console.log(response)
             next()
 
-
         }
         )
 
 
 }
-
 
 function next() {
     inquirer.prompt([
@@ -54,24 +54,13 @@ function next() {
             console.log(response.next)
 
             if (response.next == "Add an engineer") {
-              engineer()
+                engineer()
 
             } else if (response.next == "Add an intern") {
                 intern()
             } else {
-                generateHTML ()
+                generateHTML()
             }
-            
-        
-
-
-
-
-            
-            
-
-
-
 
         }
         )
@@ -106,11 +95,8 @@ function engineer() {
             console.log(response)
             next()
 
-
         }
         )
-
-
 
 
 }
@@ -145,14 +131,18 @@ function intern() {
         }
         )
 
-
-
-
 }
 
 function generateHTML() {
+    fs.writeToFile('template.html', template(init, engineer, intern), (err) => {
+   if (err) throw err;
+   console.log('The file has been saved?');
+    }) 
+     ;
+      }
 
-    
-}
 
-init()
+
+
+// generateHTML();
+init();
