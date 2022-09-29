@@ -7,7 +7,7 @@ const inquirer = require("inquirer");
 const path = require('path');
 const fs = require('fs')
 
-const DIST_DIR = path.resolve(_dirname, 'dist');
+const DIST_DIR = path.resolve(dirName, 'dist');
 const distPath = path.join(DIST_DIR, 'team.html');
 
 const render = require('./src/page-template,js');
