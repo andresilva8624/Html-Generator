@@ -1,8 +1,10 @@
 // WHEN I start the application
 //THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+const Manager = require('./lib/Manager');
 const Engineer = require("./lib/Engineer");
+const Intern = require('./lib/intern');
 const inquirer = require("inquirer");
-// const generateHTML = require('./utils/generateHTML')
+const path = require('path');
 const fs = require('fs')
 
 function init() {
@@ -133,7 +135,7 @@ function intern() {
 
 }
 
-function generateHTML() {
+function buildTeam() {
     fs.writeToFile('template.html', template(init, engineer, intern), (err) => {
    if (err) throw err;
    console.log('The file has been saved?');
