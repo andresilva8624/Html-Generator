@@ -7,6 +7,14 @@ const inquirer = require("inquirer");
 const path = require('path');
 const fs = require('fs')
 
+const DIST_DIR = path.resolve(_dirname, 'dist');
+const distPath = path.join(DIST_DIR, 'team.html');
+
+const render = require('./src/page-template,js');
+
+const teamMembers = [];
+const idArray = [];
+
 function init() {
     inquirer.prompt([
         {
@@ -61,7 +69,7 @@ function next() {
             } else if (response.next == "Add an intern") {
                 intern()
             } else {
-                generateHTML()
+                generateTeam()
             }
 
         }
@@ -96,6 +104,9 @@ function engineer() {
         .then((response) => {
             console.log(response)
             next()
+            teamMembers.push(engineer);
+            idArray.push(answers.engineerId);
+            createTeam();
 
         }
         )
@@ -130,21 +141,22 @@ function intern() {
             next()
 
 
+
         }
         )
 
 }
 
-function buildTeam() {
-    fs.writeToFile('template.html', template(init, engineer, intern), (err) => {
-   if (err) throw err;
-   console.log('The file has been saved?');
-    }) 
-     ;
+function generateTeam() {
+    if (!fs.existsSync(DIST_DIR)) {
+        fs.mkdirSync(DIST_DIR);
       }
+      fs.writeFileSync(distPath, render(teamMembers), 'utf-8');
+    };
+      
 
 
 
 
-// generateHTML();
+generateTeam();
 init();
