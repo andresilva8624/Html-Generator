@@ -7,10 +7,10 @@ const inquirer = require("inquirer");
 const path = require('path');
 const fs = require('fs')
 
-const DIST_DIR = path.resolve(dirName, 'dist');
+const DIST_DIR = path.resolve(__dirname, 'dist');
 const distPath = path.join(DIST_DIR, 'team.html');
 
-const render = require('./src/page-template,js');
+const render = require('./src/page-template.js');
 
 const teamMembers = [];
 const idArray = [];
@@ -104,9 +104,9 @@ function engineer() {
         .then((response) => {
             console.log(response)
             next()
-            teamMembers.push(engineer);
-            idArray.push(answers.engineerId);
-            createTeam();
+            // teamMembers.push(engineer);
+            // idArray.push(answers.engineerId);
+            // createTeam();
 
         }
         )
@@ -139,6 +139,9 @@ function intern() {
         .then((response) => {
             console.log(response)
             next()
+            // teamMembers.push(intern);
+            // idArray.push(answers.internId);
+      
 
 
 
@@ -152,7 +155,9 @@ function generateTeam() {
         fs.mkdirSync(DIST_DIR);
       }
       fs.writeFileSync(distPath, render(teamMembers), 'utf-8');
+    //   createTeam();
     };
+    
       
 
 
