@@ -1,23 +1,60 @@
-# Html-Generator
+# Team-Generator
 
-## Acceptance Criteria
+![Badge](https://img.shields.io/badge/AndreGitHub-MIT-green.svg)
 
-<hr>
+The goal is to create a Team Generator with Node.js. It asks your Manager's name, ID, email address and Office number. Then it'll ask you if you want to add an Inter, an Engineer or Finish building your team,  rendering a index.html file with showing the employees that we're added in cards showing their credentials. Enjoy! 😀
 
-<li>GIVEN a command-line application that accepts user input</li>
-<li>WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input</li>
-<li>WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address</li>
-<li>WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab</li>
-<li>WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number</li>
-<li>WHEN I enter theteam manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team</li>
-<li>WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu</li>
-<li>WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu</li>
-<li>WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated</li>
+[Demonstrational Video Link](https://drive.google.com/file/d/19v3ayAX6MOGLqCADt8jl1YUmlOnr-eD0/view)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Clone the repository to your local machine and open the index.html file in your browser
+
+## Usage
+
+[Deployed Site Repository](https://github.com/andresilva8624/Html-Generator)
+
+[Deployed Site Web](https://andresilva8624.github.io/Html-Generator/)
+
+![gif of deployed site](/assets/images/website.gif)
+
+## Credits
+
+Thank you to [Sabrina Hanson](https://www.github.com/sabhanson) for helping me with this assignment
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Andre Silva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Contact
+
+To contact me use one of the links below
+
+[GitHub](https://www.github.com/andresilva8624)
+
+[EMail](mailto:andresilva8624@gmail.com)
