@@ -17,9 +17,9 @@ Clone the repository to your local machine and open the index.html file in your 
 
 ## Usage
 
-[Deployed Site Repository](https://github.com/andresilva8624/Html-Generator)
+[Deployed Site Repository](https://github.com/andresilva8624/Team-Generator)
 
-[Deployed Site Web](https://andresilva8624.github.io/Html-Generator/)
+[Deployed Site Web](https://andresilva8624.github.io/Team-Generator/)
 
 ![gif of deployed site](/assets/images/website.gif)
 

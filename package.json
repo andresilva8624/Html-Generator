@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andresilva8624/Html-Generator.git"
+    "url": "git+https://github.com/andresilva8624/Team-Generator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andresilva8624/Html-Generator/issues"
+    "url": "https://github.com/andresilva8624/Team-Generator/issues"
   },
-  "homepage": "https://github.com/andresilva8624/Html-Generator#readme",
+  "homepage": "https://github.com/andresilva8624/Team-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
     "nodemon": "^2.0.20"
