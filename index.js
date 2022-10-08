@@ -39,7 +39,10 @@ function init() {
         },
     ])
         .then((response) => {
-            console.log(response)
+    
+            const newManager = new Manager (response.name, response.id, response.email, response.office)
+            teamMembers.push(newManager)
+            console.log(teamMembers)
             next()
 
         }
@@ -102,6 +105,9 @@ function engineer() {
         },
     ])
         .then((response) => {
+            
+            const newEngineer = new Engineer (response.name, response.id, response.email, response.username)
+            teamMembers.push(newEngineer)
             console.log(response)
             next()
             // teamMembers.push(engineer);
@@ -138,6 +144,8 @@ function intern() {
     ])
         .then((response) => {
             console.log(response)
+            const newIntern = new Intern (response.name, response.id, response.email, response.intern)
+            teamMembers.push(newIntern)
             next()
             // teamMembers.push(intern);
             // idArray.push(answers.internId);
