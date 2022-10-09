@@ -10,6 +10,7 @@ The goal is to create a Team Generator with Node.js. It asks your Manager's name
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contact](#contact)
 
 ## Installation
 
@@ -25,7 +26,7 @@ Clone the repository to your local machine and open the index.html file in your 
 
 ## Credits
 
-Thank you to [Sabrina Hanson](https://www.github.com/sabhanson) for helping me with this assignment
+Thank you to [Sabrina Hanson](https://www.github.com/sabhanson), our instructor Diarmuid and all the TA's for helping me with this assignment
 
 ## License
 
