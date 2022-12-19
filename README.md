@@ -4,7 +4,7 @@
 
 The goal is to create a Team Generator with Node.js. It asks your Manager's name, ID, email address and Office number. Then it'll ask you if you want to add an Inter, an Engineer or Finish building your team,  rendering a index.html file with showing the employees that we're added in cards showing their credentials. Enjoy! 😀
 
-[Demonstrational Video Link](https://drive.google.com/file/d/1mswcJkXOcXsILU43peWknfgm3JWSpZxb/view)
+[Demonstrational Video Link](https://drive.google.com/file/d/1sDhzhXl4ChBfADjrvRHzHcO6XBSZyZ8K/view)
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,7 +14,7 @@ The goal is to create a Team Generator with Node.js. It asks your Manager's name
 
 ## Installation
 
-Clone the repository to your local machine and open the index.html file in your browser
+Clone the repository to your local machine and open the Terminal with npm test and then node index.js. Once that's finished, open the index.html on your default browser
 
 ## Usage
 
@@ -22,7 +22,7 @@ Clone the repository to your local machine and open the index.html file in your 
 
 [Deployed Site Web](https://andresilva8624.github.io/Team-Generator/)
 
-![gif of deployed site](/assets/images/website.gif)
+![gif of deployed site](/assets/images/team.gif)
 
 ## Credits
 
