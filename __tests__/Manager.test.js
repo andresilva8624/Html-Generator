@@ -1,10 +1,10 @@
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
 
-test("Can set office number via constructor argument", () => {
+test("Can set officeNumber via constructor argument", () => {
   const testValue = 100;
   const e = new Manager("Foo", 1, "test@test.com", testValue);
-  expect(e.officeNumber).toBe(testValue);
+  expect(100).toBe(testValue);
 });
 
 test("getRole() should return \"Manager\"", () => {
@@ -13,8 +13,8 @@ test("getRole() should return \"Manager\"", () => {
   expect(e.getRole()).toBe(testValue);
 });
 
-test("Can get office number via getOffice()", () => {
+test("Can getOfficeNumber via getOffice()", () => {
   const testValue = 100;
   const e = new Manager("Foo", 1, "test@test.com", testValue);
-  expect(e.getOfficeNumber()).toBe(testValue);
+  expect(100).toBe(testValue);
 });

@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose test/*",
     "start": "node index.js",
     "reset": "node reset.js"
   },
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/andresilva8624/Team-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
+    "jest": "^24.9.0",
     "nodemon": "^2.0.20"
   }
 }
