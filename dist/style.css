@@ -1,6 +1,6 @@
 .team-heading {
-  background-color: #e84855;
-  color: #ffffff;
+  background-color: #020238;
+  color: rgb(255, 255, 255);
 }
 
 .team-area {
@@ -8,29 +8,47 @@
   margin: 3em auto;
   flex-wrap: wrap;
 }
+body{
+background-color: #418cd8;
+background-image: ;
+
+}
+
 
 .employee-card {
   margin: 1em;
-  max-width: 280px;
-  width: 90%;
-  min-height: 22rem;
-  background-color: #007bff;
-  color: white;
+  max-width: 290px;
+  width: 80%;
+  min-height: 25rem;
+  background-color: #08095a;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-  border: none;
+  border: 20%;
+}
+
+.employee-card:hover {
+
+  transform: scale(1.2);
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f6f7f8;
+  background-color: #32d1e6;
 }
 
 .list-group-item {
   color: #000000;
   text-decoration: none;
+}
+
+footer{
+
+  color: rgb(255, 255, 255);
+
+position: relative;
 }
